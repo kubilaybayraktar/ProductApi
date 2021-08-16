@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Api.Helper\Product.Api.Helper.csproj" />
+    <ProjectReference Include="..\Product.Entity\Product.Entity.csproj" />
+    <ProjectReference Include="..\Product.Model\Product.Model.csproj" />
+    <ProjectReference Include="..\Product.Service\Product.Service.csproj" />
+  </ItemGroup>
+
+</Project>

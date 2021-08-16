@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>Product.Api</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Product.Entity\Product.Entity.csproj" />
+    <ProjectReference Include="..\Product.Model\Product.Model.csproj" />
+    <ProjectReference Include="..\Product.Service\Product.Service.csproj" />
+  </ItemGroup>
+
+</Project>

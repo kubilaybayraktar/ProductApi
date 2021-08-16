@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Product.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Product.Api.Controllers.CategoriesController.GetAll(Product.Api.StatusQueryModel)">
+            <summary>
+            Get all categories
+            </summary>
+            <returns>Categories</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.GetByName(Product.Api.NameQueryModel)">
+            <summary>
+            Get categories by name
+            </summary>
+            <returns>Categories</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.AddCategory(Product.Api.AddCategoryBodyModel)">
+            <summary>
+            Add new category
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.UpdateCategory(System.Int32,Product.Api.UpdateCategoryBodyModel)">
+            <summary>
+            Update category
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.AddAttribute(System.Int32,System.Int32)">
+            <summary>
+            Add attribute to category
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.RemoveAttribute(System.Int32,System.Int32)">
+            <summary>
+            Remove attribute from category
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.DeleteCategory(System.Int32)">
+            <summary>
+            Delete category
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.GetAllAttributes">
+            <summary>
+            Get all attributes
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.AddAttribute(Product.Api.NameQueryModel)">
+            <summary>
+            Add new attribute
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.UpdateAttribute(System.Int32,Product.Api.NameQueryModel)">
+            <summary>
+            Update attribute
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.CategoriesController.DeleteAttribute(System.Int32)">
+            <summary>
+            Delete attribute and relations
+            </summary>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.GetAll(Product.Api.StatusQueryModel)">
+            <summary>
+            Get all products
+            </summary>
+            <returns>Products</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.GetById(System.Int32)">
+            <summary>
+            Get product by id
+            </summary>
+            <param name="id">Product id</param>
+            <returns>Product</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.GetByName(Product.Api.NameQueryModel)">
+            <summary>
+            Get product by name
+            </summary>
+            <param name="model">Product name</param>
+            <returns>Product</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.GetByCategoryName(Product.Api.NameQueryModel)">
+            <summary>
+            Get products by category name
+            </summary>
+            <param name="model">Category name</param>
+            <returns>Products</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.GetByPriceRange(Product.Api.PriceRangeQueryModel)">
+            <summary>
+            Get products between prices
+            </summary>
+            <param name="model">Price range</param>
+            <returns>Products</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.AddProduct(Product.Api.ProductBodyModel)">
+            <summary>
+            Add new product
+            </summary>
+            <param name="model">Add product model</param>
+            <returns>Product</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.UpdateProduct(System.Int32,Product.Api.UpdateProductBodyModel)">
+            <summary>
+            Update product by id
+            </summary>
+            <param name="id">Product Id</param>
+            <param name="model">Update product model</param>
+            <returns>Ok</returns>
+        </member>
+        <member name="M:Product.Api.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            Delete product by id
+            </summary>
+            <param name="id">Product Id</param>
+            <returns>Ok</returns>
+        </member>
+    </members>
+</doc>

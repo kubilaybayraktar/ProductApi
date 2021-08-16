@@ -1,0 +1,17 @@
+Product.Api.Helper/bin/
+Product.Api.Helper/obj/
+Product.Api.Tests/bin/
+Product.Api.Tests/obj/
+Product.Api/bin/
+Product.Business/obj/
+Product.Api/obj/
+Product.Cache/obj/
+Product.Entity/bin/
+Product.Entity/obj/
+Product.Model/obj/
+Product.Performance/bin/
+Product.Performance/obj/
+Product.Service/bin/
+Product.Service/obj/
+Product.Model/bin/
+Product.Cache/bin/
